@@ -20,7 +20,7 @@ const Projects = () => {
             games to their cart.
           </p>
           <a
-            className="mt-5 mb-0 border-solid px-10 rounded-sm link"
+            className="mt-6 mb-0 border-solid px-10 rounded-sm link"
             id="myLink"
             href="https://peaceful-everglades-79165.herokuapp.com/"
             target="_blank"
@@ -41,7 +41,7 @@ const Projects = () => {
             and present the amount at the end of the minute.
           </p>
           <a
-            className="mt-5 mb-0 border-solid px-10 rounded-sm link"
+            className="mt-6 mb-0 border-solid px-10 rounded-sm link"
             id="myLink"
             href="https://whacamolegame.surge.sh/index.html"
             target="_blank"
@@ -63,7 +63,7 @@ const Projects = () => {
             by others as well.
           </p>
           <a
-            className="mt-5 mb-0 border-solid px-10 rounded-sm link"
+            className="mt-6 mb-0 border-solid px-10 rounded-sm link"
             id="myLink"
             href="https://radiant-depths-30152.herokuapp.com/"
             target="_blank"
@@ -81,7 +81,7 @@ const Projects = () => {
             GameStart is an e-commerce, fully functional, intuitive, engaging
           </p>
           <a
-            className="mt-5 mb-0 border-solid px-10 rounded-sm link"
+            className="mt-6 mb-0 border-solid px-10 rounded-sm link"
             id="myLink"
             href="https://whacamolegame.surge.sh/index.html"
             target="_blank"
