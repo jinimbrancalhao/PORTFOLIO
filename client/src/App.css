@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+#home {
+  height: 100vh;
+  padding-top: 8rem;
+  /* background-image: url('./wave.svg'); */
+  background-color: #647c90;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#contact {
+  height: 100vh;
+  padding-top: 8rem;
+  background-color: #e7d2cc;
+}
+
+#projects {
+  height: 100vh;
+  padding-top: 8rem;
+  /* background-image: url('./pink.svg'); */
+  background-color: #746c70;
+}
+
+#nav {
+  position: fixed;
+  height: 8vh;
+  font-family: 'Roboto Mono', monospace;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.home-text {
+  color: #e2ded0;
+}
+
+.card {
+  background-color: #817777;
+  min-width: 0;
+}
+
+.project {
+  color: #e6d1ab;
+}
+
+.link {
+  background-color: #d8b370;
+}
