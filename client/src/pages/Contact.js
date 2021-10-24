@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <section id="contact">
-      <div className="contact-image md:pl-20">
+      <div className="contact-image md:pl-20 overflow-auto">
         <img
           className="rounded-full border-gray-500 border-8 shadow-2xl"
           src="https://i.imgur.com/htxgZ9c.png"
@@ -23,9 +23,9 @@ const Contact = () => {
           Libraries- React.js | Mongoose | Sequelize | Flask
         </h3>
       </div>
-      <div className="contact-info">
+      <div className="contact-info overflow-auto">
         <h1 className="md:text-5xl sm:text-lg md:mb-20 md:mt-40">About Me</h1>
-        <p className="md:text-2xl text-center md:m-20 overflow-auto">
+        <p className="md:text-2xl text-center md:m-10 md:h- overflow-auto">
           My name is Jin Im, and I am a full-stack software engineer with a
           background in client-facing services and business ownership. I have
           experience scaling a business and providing utmost client

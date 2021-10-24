@@ -7,7 +7,7 @@ const Projects = () => {
         <h2 className="md:text-6xl sm:text-3xl font-extrabold ">Projects</h2>
       </div>
       <div className="project-pages">
-        <div className="p1">
+        <div className="p1 overflow-auto">
           <img
             className="rounded-full md:h-96 md:w-96 sm:h-36 sm:w-36 border-8 border-gray-500 shadow-xl object-cover"
             src="https://i.imgur.com/wE1GoXf.png"
@@ -17,7 +17,7 @@ const Projects = () => {
           <h3 className="md:text-2xl md:mb-10 sm:text-lg sm:mb-10 text-center">
             Stack: PostgreSQL | Express.js | React.js | Node.js
           </h3>
-          <p className="md:text-xl sm:text-sm text-center overflow-auto">
+          <p className="md:text-xl sm:text-sm text-center">
             GameStart is an e-commerce, fully functional, intuitive, engaging
             full-stack application in which users can browse games, learn about
             their new games, sell/trade their game inventory, and add various
@@ -34,7 +34,7 @@ const Projects = () => {
           </button>
         </div>
 
-        <div className="p2">
+        <div className="p2 overflow-auto">
           <img
             className="rounded-full md:h-96 md:w-96 sm:h-36 sm:w-36 border-8 border-gray-500 shadow-xl object-cover"
             src="https://i.imgur.com/QrLXMyU.png"
@@ -61,7 +61,7 @@ const Projects = () => {
           </button>
         </div>
 
-        <div className="p3">
+        <div className="p3 overflow-auto">
           <img
             className="rounded-full md:h-96 md:w-96 sm:h-36 sm:w-36 border-8 border-gray-500 shadow-xl object-cover"
             src="https://i.imgur.com/fIkLoww.jpg"
@@ -89,7 +89,7 @@ const Projects = () => {
           </button>
         </div>
 
-        <div className="p4">
+        <div className="p4 overflow-auto">
           <img
             className="rounded-full md:h-96 md:w-96 sm:h-36 sm:w-36 border-8 border-gray-500 shadow-xl object-cover"
             src="https://i.imgur.com/auJMbTi.jpg"
